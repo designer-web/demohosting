@@ -4,7 +4,7 @@ $(document).ready(function() {
     $("#owl-portfolio4").owlCarousel({
               
         autoPlay: true, 
-        slideSpeed:2000,
+        slideSpeed:3000,
         pagination:false,
         navigation:true,
         items : 4,
@@ -32,7 +32,7 @@ $(document).ready(function() {
     $("#owl-portfolio5").owlCarousel({
               
         autoPlay: true, 
-        slideSpeed:2000,
+        slideSpeed:3000,
         pagination:false,
         navigation:true,	  
         items : 5,
@@ -40,11 +40,11 @@ $(document).ready(function() {
         itemsDesktop : [1199,4],
         itemsDesktopSmall : [980,3],
         itemsTablet: [768,2],
-        itemsMobile : [7576,2]
+        itemsMobile : [576,2]
     });
 
 });
-    
+
     
   /*============================================== /*
            Portfolio

@@ -101,6 +101,11 @@ body
     font-size: 16px;
 }
 
+.para-sm
+{
+    font-size: 14px;
+}
+
 /*Header*/
 
 .head-section
@@ -254,6 +259,20 @@ body
     text-decoration: none;
     transition: background color .5s;
 }
+
+.work-wrapper .faculty a
+{
+    text-decoration: none;
+}
+
+.work-wrapper .faculty a:hover
+{
+    text-decoration: none;
+    color: #7A2776;
+    border-bottom: 1px solid #7A2776;
+}
+
+
 
 @media (max-width:991px)
 {
