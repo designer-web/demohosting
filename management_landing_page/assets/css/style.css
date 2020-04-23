@@ -168,13 +168,23 @@ body
     height: 75px;
 }
 
-.course-block
+.course-block-dark
 {
     width: 18%;
     margin:10px;
     padding:15px 25px;
     border-radius:5px;
     background-color: #7A2776;
+    height: 225px;
+}
+
+.course-block-light
+{
+    width: 18%;
+    margin:10px;
+    padding:15px 25px;
+    border-radius:5px;
+    background-color: #C212B9;
     height: 225px;
 }
 
@@ -212,14 +222,14 @@ body
 {
     background-image: url('../../assets/images/banners/parallax.jpg');
     height: 62vh;
-    background-position: top right 20%;
+    background-position: top right;
 }
 
 
 
 @media (max-width: 1200px)
 {
-    .course-block
+    .course-block-dark, .course-block-light
     {
         width: 23%;
         margin: 10px;
@@ -259,7 +269,7 @@ body
         margin-left: 25px;
     }
 
-    .course-block
+    .course-block-dark, .course-block-light
     {
         width: 30%;
         margin: 10px;
@@ -283,7 +293,7 @@ body
 
 @media (max-width: 787px)
 {
-    .course-block
+    .course-block-dark, .course-block-light
     {
         width: 90%;
         margin: 10px;
